@@ -1,0 +1,19 @@
+{
+    "FPS": 30,
+    "BackgroundColor": "#90ee90",
+    "Width": 600,
+    "Height": 600,
+    "Images": {
+        "1": ["b", -45],
+        "2": ["", -35], 
+        "3": ["", -20],
+        "4": ["s", 0]
+    },
+    "ImageSize": 0.9,
+    "ShakePower": 15,
+    "VolumeDisplay": true,
+    "ShakeDisplay": true,
+    "BlinkFrames": 2,
+    "BlinkInterval": 50,
+    "BlinkIntervalRandom": 20
+}
