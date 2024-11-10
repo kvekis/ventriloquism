@@ -9,16 +9,12 @@ Ventriloquism is a microprogram that roughly replicates the functionality of [PW
 - [Ventriloquism](#ventriloquism)
   - [Содержание / Contents](#содержание--contents)
   - [RU](#ru)
-    - [Начало работы](#начало-работы)
-      - [Установка Python 3](#установка-python-3)
     - [Soundmeter](#soundmeter)
       - [Конфигурация](#конфигурация)
     - [Ventriloquism](#ventriloquism-1)
       - [Конфигурация](#конфигурация-1)
       - [Использование Soundmeter](#использование-soundmeter)
   - [EN](#en)
-    - [Getting started](#getting-started)
-      - [Installing Python 3](#installing-python-3)
     - [Soundmeter](#soundmeter-1)
       - [Configuration](#configuration)
     - [Ventriloquism](#ventriloquism-2)
@@ -26,11 +22,6 @@ Ventriloquism is a microprogram that roughly replicates the functionality of [PW
       - [Using Soundmeter](#using-soundmeter)
 
 ## RU
-
-### Начало работы
-Для работы программы нужен Python 3
-#### Установка Python 3
-Python можно установить с [официального сайта](https://www.python.org/downloads/). Скорее всего, подойдёт любая версия, но лучше установить `3.11+`, чтобы всё точно работало
 
 ### Soundmeter
 Эта нанопрограммка нужна для настройки основной. Она показывает уровень сигнала с микрофона. Из-за особенностей алгоритма `0` является максимальным значением
@@ -67,12 +58,6 @@ Python можно установить с [официального сайта](
 
 
 ## EN
-
-
-### Getting started
-For the program to work, you need Python 3
-#### Installing Python 3
-Python can be installed from [official site](https://www.python.org/downloads /). Most likely, any version will work, but it's better to install `3.11+` so that everything works exactly
 
 ### Soundmeter
 This nanoprogram is needed to set up the main one. It shows the signal strength from the microphone. Due to the peculiarities of the algorithm, `0` is the maximum value
