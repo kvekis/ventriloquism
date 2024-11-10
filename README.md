@@ -11,7 +11,6 @@ Ventriloquism is a microprogram that roughly replicates the functionality of [PW
   - [RU](#ru)
     - [Начало работы](#начало-работы)
       - [Установка Python 3](#установка-python-3)
-      - [Установка библиотек](#установка-библиотек)
     - [Soundmeter](#soundmeter)
       - [Конфигурация](#конфигурация)
     - [Ventriloquism](#ventriloquism-1)
@@ -20,7 +19,6 @@ Ventriloquism is a microprogram that roughly replicates the functionality of [PW
   - [EN](#en)
     - [Getting started](#getting-started)
       - [Installing Python 3](#installing-python-3)
-      - [Installing libraries](#installing-libraries)
     - [Soundmeter](#soundmeter-1)
       - [Configuration](#configuration)
     - [Ventriloquism](#ventriloquism-2)
@@ -30,15 +28,9 @@ Ventriloquism is a microprogram that roughly replicates the functionality of [PW
 ## RU
 
 ### Начало работы
-Для работы программы нужен Python 3 и несколько сторонних библиотек для него
+Для работы программы нужен Python 3
 #### Установка Python 3
-Python можно установить с [оффициального сайта](https://www.python.org/downloads/). Скорее всего, подойдёт любая версия, но лучше установить `3.11+`, чтобы всё точно работало
-#### Установка библиотек
-Для работы программы нужны библиотеки `numpy`, `pygame`и `sounddevice`. Для их установки можно запустить `lib_install.bat`(только для Windows) или прописать в терминале:  
-
-`pip install numpy`  
-`pip install pygame`  
-`pip install sounddevice`
+Python можно установить с [официального сайта](https://www.python.org/downloads/). Скорее всего, подойдёт любая версия, но лучше установить `3.11+`, чтобы всё точно работало
 
 ### Soundmeter
 Эта нанопрограммка нужна для настройки основной. Она показывает уровень сигнала с микрофона. Из-за особенностей алгоритма `0` является максимальным значением
@@ -78,15 +70,9 @@ Python можно установить с [оффициального сайта
 
 
 ### Getting started
-For the program to work, you need Python 3 and several third-party libraries for it
+For the program to work, you need Python 3
 #### Installing Python 3
 Python can be installed from [official site](https://www.python.org/downloads /). Most likely, any version will work, but it's better to install `3.11+` so that everything works exactly
-#### Installing libraries
-The program needs the `numpy`, `pygame` and `sounddevice` libraries to work. To install them, you can run `lib_install.bat` (Windows only) or run in the terminal:  
-
-`pip install numpy`  
-`pip install pygame`  
-`pip install sounddevice`
 
 ### Soundmeter
 This nanoprogram is needed to set up the main one. It shows the signal strength from the microphone. Due to the peculiarities of the algorithm, `0` is the maximum value
