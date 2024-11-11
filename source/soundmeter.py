@@ -18,7 +18,7 @@ WIDTH, HEIGHT = config['Width'], config['Height']
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Soundmeter')
 
-icon = pygame.image.load('./sprites/icon.gif')
+icon = pygame.image.load('./images/icon.gif')
 pygame.display.set_icon(icon)
 
 font = pygame.font.SysFont(config['Font'], config['FontSize'])

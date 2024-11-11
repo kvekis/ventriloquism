@@ -18,7 +18,7 @@ config = json.load(ventriloquism_config)
 WIDTH, HEIGHT = config['Width'], config['Height']
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Ventriloquism')
-icon = pygame.image.load('./sprites/icon.gif')
+icon = pygame.image.load('./images/icon.gif')
 pygame.display.set_icon(icon)
 
 images = []
@@ -27,11 +27,11 @@ blink_surfaces = []
 
 for i in config['Images']:
     images.append(i)
-    image_surfaces.append(pygame.image.load(f'./sprites/{i}.png'))
+    image_surfaces.append(pygame.image.load(f'./images/{i}.png'))
     if 'b' in config['Images'][f'{i}'][0]:
-        blink_surfaces.append(pygame.image.load(f'./sprites/{i}_blink.png'))
+        blink_surfaces.append(pygame.image.load(f'./images/{i}_blink.png'))
     else:
-        blink_surfaces.append(pygame.image.load(f'./sprites/{i}.png'))
+        blink_surfaces.append(pygame.image.load(f'./images/{i}.png'))
 
 
 def calculate_db(data):
