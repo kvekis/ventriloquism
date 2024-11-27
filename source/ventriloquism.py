@@ -20,6 +20,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Ventriloquism')
 icon = pygame.image.load('./images/icon.gif')
 pygame.display.set_icon(icon)
+theme = config['Theme']
 
 images = []
 image_surfaces = []
@@ -27,11 +28,11 @@ blink_surfaces = []
 
 for i in config['Images']:
     images.append(i)
-    image_surfaces.append(pygame.image.load(f'./images/{i}.png'))
+    image_surfaces.append(pygame.image.load(f'./images/{theme}/{i}.png'))
     if 'b' in config['Images'][f'{i}'][0]:
-        blink_surfaces.append(pygame.image.load(f'./images/{i}_blink.png'))
+        blink_surfaces.append(pygame.image.load(f'./images/{theme}/{i}_blink.png'))
     else:
-        blink_surfaces.append(pygame.image.load(f'./images/{i}.png'))
+        blink_surfaces.append(pygame.image.load(f'./images/{theme}/{i}.png'))
 
 
 def calculate_db(data):
