@@ -3,6 +3,7 @@
     "BackgroundColor": "#90ee90",
     "Width": 600,
     "Height": 600,
+    "Theme": "default_stupid",
     "Images": {
         "1": ["b", -45],
         "2": ["", -35], 
