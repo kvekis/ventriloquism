@@ -4,7 +4,7 @@
     "Width": 600,
     "Height": 600,
     "Theme": "default_stupid",
-    "Images": {
+    "default_stupid": {
         "1": ["b", -45],
         "2": ["", -35], 
         "3": ["", -20],
