@@ -26,10 +26,10 @@ images = []
 image_surfaces = []
 blink_surfaces = []
 
-for i in config['Images']:
+for i in config[theme]:
     images.append(i)
     image_surfaces.append(pygame.image.load(f'./images/{theme}/{i}.png'))
-    if 'b' in config['Images'][f'{i}'][0]:
+    if 'b' in config[theme][f'{i}'][0]:
         blink_surfaces.append(pygame.image.load(f'./images/{theme}/{i}_blink.png'))
     else:
         blink_surfaces.append(pygame.image.load(f'./images/{theme}/{i}.png'))
@@ -53,7 +53,7 @@ def get_image_for_volume(db, is_blink):
     global image_index
     image_index = 0
     for i in range(len(images)):
-       if db < config['Images'][images[i]][1]:
+       if db < config[theme][images[i]][1]:
            image_index = i
            if not is_blink: return image_surfaces[i]
            else: return blink_surfaces[i]
@@ -93,7 +93,7 @@ def main():
             x_pos = (WIDTH - new_width) // 2
             y_pos = (HEIGHT - new_height) // 2
 
-            if 's' in config['Images'][images[image_index]][0]:
+            if 's' in config[theme][images[image_index]][0]:
                 shake_effect = True
             else:
                 shake_effect = False
